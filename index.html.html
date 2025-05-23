@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="art205.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="images/D.webp" alt="" />
+        <div class="nav-side-panel">
+          <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="#Profile">Profile</a>
+          </nav>
+          <div id="profile" class="profile">
+            <img src="images/D.webp" alt="" />
+          </div>
+        </div>
+      </header>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <div class="modal" id="modal">
+            <div class="modal-content">
+              <h2>Profile Information</h2>
+
+              <table class="profile-table">
+                <tr>
+                  <th>NAME:</th>
+                  <td>Danie C. Davis II</td>
+                </tr>
+                <tr>
+                  <th>D.O.B:</th>
+                  <td>January 31, 2000</td>
+                </tr>
+                <tr>
+                  <th>NATIONALITY:</th>
+                  <td>American</td>
+                </tr>
+                <tr>
+                  <th>OCCUPATION:</th>
+                  <td>STUDENT</td>
+                </tr>
+                <tr>
+                  <th>SCHOOL:</th>
+                  <td>STARZ UNIVERSITY</td>
+                </tr>
+              </table>
+
+              <button class="close-button" id="close-modal">Close</button>
+            </div>
+          </div>
+
+          <button class="close-button" id="close-modal">Close</button>
+        </div>
+      </div>
+
+      <!--modal contents-->
+      <section id="home" class="home">
+        <!--Home contents-->
+        <div class="home-content">
+          <h3>Hi</h3>
+          <h1>
+            I'm <span>DANIEL <br /> </span>a student at Starz University
+            Studying Information Technology.
+          </h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+            fugit est officiis ut asperiores laudantium, sequi quae ea fuga sed
+            dolor beatae eius inventore. Ducimus vero eligendi explicabo ipsam
+            voluptatibus.
+          </p>
+          <div class="buttons">
+            <button class="hire-me" id="HIRE">HIRE</button>
+            <button class="davis" id="Portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="images/man.jpg" alt="Daniel Photo" />
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <h2>SKILLS</h2>
+
+        <div class="skill-row">
+          <!-- Block 1 -->
+          <div class="skill-block">
+            <img src="images/music.jpg" alt="sing" />
+            <h3>Musical Life</h3>
+            <p>Music gives you the fruit to awaken your soul.</p>
+          </div>
+
+          <!-- Block 2 -->
+          <div class="skill-block">
+            <img src="images/mic.jpg" alt="Hold the mic" />
+            <h3>The Mic</h3>
+            <p>Let your voice be heard all over using the mic.</p>
+          </div>
+
+          <!-- Block 3 -->
+          <div class="skill-block">
+            <img src="images/basketball.jpg" alt="basketball" />
+            <h3>Basketball</h3>
+            <p>Get tall and be ready to dunk.</p>
+          </div>
+
+          <!-- Block 4 -->
+          <div class="skill-block">
+            <img src="images/football" alt="football" />
+            <h3>Football</h3>
+            <p>I'm like Vinicius Jr whenever I touch the pitch.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact form</h2>
+        <form id="contact-form">
+          <div class="form-control">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              name="name"
+              required
+            />
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="form-control">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              placeholder="Enter your message..."
+              name="message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" id="submit-button">Send</button>
+        </form>
+      </section>
+
+      <footer>
+        <div class="footer-daniel">
+          <div class="ambassador">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
